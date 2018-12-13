@@ -54,3 +54,10 @@ class MotionDetector(object):
             cv2.rectangle(frame, (x, y), (x + w, y + h), (0,0,0), 2)
         
         return frame
+    
+    def count_face(self,frame):
+        face_num = []
+        
+        
+        cv2.putText(frame,"face_num",
+        
